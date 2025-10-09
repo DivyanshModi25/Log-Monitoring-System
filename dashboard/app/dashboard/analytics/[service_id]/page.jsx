@@ -261,7 +261,7 @@ const [heatmapData, setHeatmapData] = useState([]);
                   </div>
 
                   <div className="bg-[#111111] border-1 border-[#222222] w-[220px] p-10 flex flex-col gap-5 items-center rounded-xl">
-                      <p className='text-xl font-semibold'>Error Rate</p>
+                      <p className='text-xl font-semibold'>Error %</p>
                       <p className="text-red-600">
                         {totalLogs > 0 ? `${((errorLogs / totalLogs) * 100).toFixed(2)}%` : '0.00%'}
                       </p>

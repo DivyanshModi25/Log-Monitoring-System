@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'http://logmonitor-alb-940134350.ap-south-1.elb.amazonaws.com/:path*', // Proxy to your backend
+        destination: 'http://logmonitor-alb-625014836.ap-south-1.elb.amazonaws.com/:path*', // Proxy to your backend
       },
     ];
   },

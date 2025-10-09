@@ -306,15 +306,12 @@ export default function Dashboard() {
                   </div>
 
                   {/* Stats */}
-                  <div className="grid grid-cols-3 gap-4">
+                  <div className="grid grid-cols-2 gap-4">
                     <div className="text-center p-1 bg-black/20 rounded-lg border border-gray-700">
                       <div className="text-lg font-bold text-white">{service.total_logs}</div>
                       <div className="text-xs text-gray-400">logs</div>
                     </div>
-                    <div className="text-center p-1 bg-black/20 rounded-lg border border-gray-700">
-                      <div className="text-lg font-bold text-green-400">"50%"</div>
-                      <div className="text-xs text-gray-400">Uptime</div>
-                    </div>
+                    
                     <div className="text-center p-1 bg-black/20 rounded-lg border border-gray-700">
                       <div className="text-lg font-bold text-blue-400">{service.error_logs}</div>
                       <div className="text-xs text-gray-400">Error Logs</div>
